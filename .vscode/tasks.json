@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ROS: Build fqdemo_msgs",
+      "type": "shell",
+      "command": "colcon build --packages-select fqdemo_msgs --cmake-args '-DCMAKE_BUILD_TYPE=Debug'",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/../../"
+      },
+      "group": "build"
+    }
+  ]
+}
