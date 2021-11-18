@@ -1,2 +1,2 @@
-int64 num
-int64 power
+float64 num
+float64 power
